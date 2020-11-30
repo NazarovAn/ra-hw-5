@@ -1,10 +1,18 @@
-import React from 'react'
-import './Cards.css'
+import wall from './img/wall.jpg'
+import { nanoid } from 'nanoid'
 
-export default function Cards() {
-  return (
-    <div className="cards">
-      Cards
-    </div>
-  )
-}
+const cards = [
+  {
+    id: nanoid(),
+    title: 'Card title',
+    text: 'Some quick example text to build on the card title and make up the bulk of the card\'s content.',
+    img: wall
+  },
+  {
+    id: nanoid(),
+    title: 'Special title treatment',
+    text: 'With supporting text below as a natural lead-in to additional content.',
+  }
+]
+
+export default cards

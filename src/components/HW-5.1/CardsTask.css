@@ -1,0 +1,5 @@
+.cards_task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
