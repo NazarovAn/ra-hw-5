@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { BrowserRouter as Router , Route } from 'react-router-dom';
+import Cards from './components/HW-5.1/Cards'
+import Decomposition from './components/HW-5.2/Decomposition'
+import Collapse from './components/HW-5.3/Collapse'
+import Navigation from './components/Navigation'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation />
+        <div className="task">
+          <Route path="/first" component={ Cards } />
+          <Route path="/second" component={ Decomposition } />
+          <Route path="/third" component={ Collapse } />
+        </div>
+      </div>
+    </Router>
   );
 }
 
