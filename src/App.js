@@ -4,6 +4,7 @@ import CardsTask from './components/HW-5.1/CardsTask'
 import Decomposition from './components/HW-5.2/Decomposition'
 import Collapse from './components/HW-5.3/Collapse'
 import Navigation from './components/Navigation'
+import data from './components/HW-5.2/data'
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         <Navigation />
         <div className="task">
           <Route path="/first" component={ CardsTask } />
-          <Route path="/second" component={ Decomposition } />
+          <Route path="/second">
+            <Decomposition { ...data } />
+          </Route>
           <Route path="/third" component={ Collapse } />
         </div>
       </div>

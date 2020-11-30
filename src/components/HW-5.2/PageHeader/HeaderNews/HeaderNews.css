@@ -1,0 +1,30 @@
+.news__header_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: .5rem 1rem;
+}
+
+.news__list {
+  padding: .5rem 0;
+}
+
+.news__type_link {
+  font-size: 1.2rem;
+  margin-right: .5rem;
+}
+
+.news__list_item a {
+  color: #000;
+}
+
+.news__list_item_icon {
+  display: inline-block;
+  margin-right: 1rem;
+  width: 3rem;
+}
+
+.news__heading_time {
+  color: gray;
+  font-size: .8rem;
+}

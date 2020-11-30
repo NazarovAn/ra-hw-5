@@ -1,0 +1,14 @@
+.header__advert {
+  width: 30%;
+  padding: .5rem 1rem;
+}
+
+.header__advert_img {
+  max-width: 80px;
+  max-height: 80px;
+  border-radius: 20px;
+}
+
+.header__advert_text {
+  color: #000;
+}
