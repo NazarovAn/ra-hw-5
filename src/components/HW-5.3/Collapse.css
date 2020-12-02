@@ -1,0 +1,19 @@
+.collapse__task {
+  width: 80%;
+  margin: auto;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #fff;
+  border: 2px solid rgb(210, 210, 210);
+  border-radius: 8px;
+}
+
+.collapse__task_btn {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.collapse__task_btn:active {
+  color: gray;
+}
