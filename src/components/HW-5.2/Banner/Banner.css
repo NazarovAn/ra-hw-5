@@ -1,0 +1,10 @@
+.decmpn__banner {
+  margin: 1rem auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.decmpn__banner_link {
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,8 @@
+.decmpn__widgets_recent_site_name {
+  font-weight: bold;
+}
+
+.decmpn__widgets_recent_site_name::after {
+  content: ' - ';
+  font-weight: normal;
+}

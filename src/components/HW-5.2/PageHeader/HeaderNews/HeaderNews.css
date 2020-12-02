@@ -1,7 +1,7 @@
 .news__header_wrapper {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   padding: .5rem 1rem;
 }
 
@@ -18,10 +18,13 @@
   color: #000;
 }
 
+.news__list_item_link{
+  position: relative;
+}
+
 .news__list_item_icon {
-  display: inline-block;
-  margin-right: 1rem;
-  width: 3rem;
+  position: absolute;
+  left: -20px;
 }
 
 .news__heading_time {

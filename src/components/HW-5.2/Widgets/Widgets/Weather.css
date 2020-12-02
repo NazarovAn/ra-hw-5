@@ -1,0 +1,26 @@
+.decmpn__widgets_weather {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+.decmpn__widgets_weather_icon {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.decmpn__widgets_weather_temp_now {
+  font-size: 1.5rem;
+}
+
+.decmpn__widgets_weather_temp_other {
+  display: flex;
+  flex-direction: column;
+}
+
+.decmpn__widgets_weather_temp_other {
+  font-size: 0.8rem;
+}

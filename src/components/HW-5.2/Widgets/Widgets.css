@@ -1,0 +1,19 @@
+.decmpn__widgets {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-height: 280px;
+  align-content: center;
+}
+
+.decmpn__widgets_item {
+  padding: .5rem 1rem;
+}
+
+.decmpn__widgets_item a {
+  color: #000;
+}
+
+.decmpn__widgets_item_title {
+  color: rgb(0, 123, 255);
+}
